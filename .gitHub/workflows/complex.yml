@@ -1,5 +1,6 @@
 name: Complex
 on: push
+workflow_dispatch:
 jobs:
   ubuntujob:
     runs-on: ubuntu-latest
